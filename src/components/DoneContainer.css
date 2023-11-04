@@ -1,0 +1,43 @@
+.DoneContainer {
+  background-color: #e9fff9;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 700px;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  min-height: 400px;
+  max-height: 500px;
+  overflow: auto;
+  & h2 {
+    margin-bottom: 1rem;
+  }
+  & ul {
+    list-style-type: none;
+    & li {
+      position: relative;
+      background-color: #4675996b;
+      color: white;
+      border-radius: 200px;
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+      & .btn-back {
+        position: absolute;
+        border-radius: 5px;
+        padding: 0.1rem 0.4rem;
+        border: none;
+        background-color: #d640457a;
+        right: 1rem;
+      }
+      & .btn-delete {
+        position: absolute;
+        border-radius: 5px;
+        padding: 0.1rem 0.4rem;
+        border: none;
+        color: white;
+        background-color: red;
+        right: 4rem;
+      }
+    }
+  }
+}

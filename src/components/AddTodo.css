@@ -1,0 +1,20 @@
+.AddTodo {
+  & form {
+    padding: 2rem;
+    width: 700px;
+
+    & input {
+      padding: 1rem 2rem;
+      width: 80%;
+      border-radius: 10px;
+      border: 0.5px solid lightgray;
+    }
+    & button {
+      padding: 1rem 2rem;
+      margin-left: 1rem;
+      border-radius: 10px;
+      background-color: #d8973c;
+      border: none;
+    }
+  }
+}
